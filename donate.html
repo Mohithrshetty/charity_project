@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATION FORM</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="stylesheet" href="donate.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">
+          <img src="./h5logo.png" alt="" class="sign" />
+        </a>
+        <nav class="navbar">
+          <a href="charity.html">HOME</a>
+          <a href="#about">ABOUT US</a>
+          <a href="#review">REVIEW</a>
+          <a href="#blogs">BLOGS</a>
+        </nav>
+        <div class="icons">
+         
+            <div class="fa fa-user" id="login-btn" ></div>
+          
+            
+          </div>
+          </header>
+
+  <div class="container">
+    <h2>DONATE HERE</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"  placeholder="Enter your Email" required>
+
+      <label for="phoneNumber">PHONE NO:</label>
+      <input type="text" id="num" name="number"  placeholder="Enter your phoneNumber" required>
+
+      <label for="amount">Donation Amount:</label>
+      <input type="number" id="amount" name="amount" min="1" required>
+
+      <label for="paymentMethod">Payment Method:</label>
+      <select id="paymentMethod" name="paymentMethod" required>
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+      </select>
+
+      <button type="submit">CONTINUE</button>
+    </form>
+  </div>
+</body>
+</html>
+
+  
