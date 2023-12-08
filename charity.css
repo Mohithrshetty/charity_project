@@ -8,7 +8,7 @@
     --box-shadow: 0 .1rem 1rem rgba(0,0,0.1);
     --rox-shadow: 0 .1rem 1rem rgb(255, 255, 255);
     --gox-shadow: 0 .2rem 2rem rgb(4, 4, 44);
-    --border: 1rem solid rgb(174, 128, 128);
+    --border: 0.2rem solid rgb(17, 17, 17);
     --outline: 0.1rem solid rgb(110, 107, 107);
 }
 
@@ -147,6 +147,14 @@ body{
 }
 .btn:hover{
     background:white;
+}
+#login-btn{
+    font-size: 15px;
+    font-weight: bolder;
+}
+#fam-btn{
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .header .login-form{
@@ -479,6 +487,41 @@ clip-path:polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
 }
 
 
+/*blogs*/
+.blogs h1{
+    padding: 4cdrem ;
+}
 
+.blogs .box-container{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 5rem;
+}
+
+.blogs .box-container .boxx{
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+.blogs .box-container .boxx img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+.blogs .box-container .boxx .content{
+    padding: 2rem;
+    font-size: 15px;
+}
+.blogs .box-container .boxx .content .icons{
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+
+}
   
   
