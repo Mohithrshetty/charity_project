@@ -489,14 +489,17 @@ clip-path:polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
 
 /*blogs*/
 .blogs h1{
+    padding: 4rem;
+}
+.blogs h1{
     padding: 4cdrem ;
 }
 
 .blogs .box-container{
     border: 0px solid;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 3rem;
 }
 
 .blogs .box-container .boxx{
